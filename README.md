@@ -1,1 +1,3 @@
 # ML-VIGNAN-NIRULA-12-07-2021
+
+## [DAY1 RECORDING SESSION LINK](https://transcripts.gotomeeting.com/#/s/a2f3c630d8efbc684474790d155e38a0c0ff97989c62825e47be60242895d02c)
