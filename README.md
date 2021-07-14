@@ -4,4 +4,4 @@
 
 ## [DAY2 RECORDING SESSION LINK](https://transcripts.gotomeeting.com/#/s/a158e0f1fb216caab85f7a96eb35f44a5716ffee25c0c9b76eded58096ec86d1)
 
-## [DAY2 RECORDING SESSION LINK](https://transcripts.gotomeeting.com/#/s/64da700071318a02288cbf43f2eefd1ef3162690450970e28907ed73bd74cc0f)
+## [DAY3 RECORDING SESSION LINK](https://transcripts.gotomeeting.com/#/s/64da700071318a02288cbf43f2eefd1ef3162690450970e28907ed73bd74cc0f)
