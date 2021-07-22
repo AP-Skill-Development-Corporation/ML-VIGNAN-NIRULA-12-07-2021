@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="petal width (cm) <= 0.8\ngini = 0.666\nsamples = 105\nvalue = [33, 36, 36]\nclass = versicolor", fillcolor="#39e58100"] ;
+1 [label="gini = 0.0\nsamples = 33\nvalue = [33, 0, 0]\nclass = setosa", fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="petal width (cm) <= 1.65\ngini = 0.5\nsamples = 72\nvalue = [0, 36, 36]\nclass = versicolor", fillcolor="#39e58100"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="petal length (cm) <= 4.95\ngini = 0.145\nsamples = 38\nvalue = [0, 35, 3]\nclass = versicolor", fillcolor="#39e581e9"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 34\nvalue = [0, 34, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+3 -> 4 ;
+5 [label="sepal length (cm) <= 6.15\ngini = 0.375\nsamples = 4\nvalue = [0, 1, 3]\nclass = virginica", fillcolor="#8139e5aa"] ;
+3 -> 5 ;
+6 [label="petal width (cm) <= 1.55\ngini = 0.5\nsamples = 2\nvalue = [0, 1, 1]\nclass = versicolor", fillcolor="#39e58100"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", fillcolor="#8139e5ff"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+6 -> 8 ;
+9 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2]\nclass = virginica", fillcolor="#8139e5ff"] ;
+5 -> 9 ;
+10 [label="petal length (cm) <= 4.85\ngini = 0.057\nsamples = 34\nvalue = [0, 1, 33]\nclass = virginica", fillcolor="#8139e5f7"] ;
+2 -> 10 ;
+11 [label="sepal width (cm) <= 3.1\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2]\nclass = virginica", fillcolor="#8139e57f"] ;
+10 -> 11 ;
+12 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2]\nclass = virginica", fillcolor="#8139e5ff"] ;
+11 -> 12 ;
+13 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+11 -> 13 ;
+14 [label="gini = 0.0\nsamples = 31\nvalue = [0, 0, 31]\nclass = virginica", fillcolor="#8139e5ff"] ;
+10 -> 14 ;
+}
